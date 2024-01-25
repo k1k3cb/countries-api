@@ -14,7 +14,10 @@ export const GlobalStyles = createGlobalStyle`
   
   body{
     margin: 0;
-    font-family: sans-serif;
+    font-family: "Nunito Sans", sans-serif;
+    max-width: 1440px;
+    margin-inline: auto;
+    background-color: #FAFAFA;
   }
 
   a{
