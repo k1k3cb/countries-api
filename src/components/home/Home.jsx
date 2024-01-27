@@ -36,6 +36,11 @@ const Home = () => {
 						population={country.population}
 						region={country.region}
 						capital={country.capital}
+						nativeName={country.name.common}
+						subregion={country.subregion}
+						topLevelDomain={country.topLevelDomain}
+						currencies={country.currencies}
+						languages={country.languages}
 					/>
 				))}
 			</StyledFlagsDiv>
